@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Function</title>
+    <link rel="stylesheet" href="css/c03.css" />
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>TravelWorthy</h1>
+    <div id="message">Welcome to our site!</div>
+    <script>
+      // var name = 'Xin chào';
+      // function upname(){
+      //   var elname = document.getElementById('message');
+      //   elname.textContent = name;
+      // };
+      // upname()
+      function tong(quaTao, soLuong){
+        var eltong = document.getElementById('message');
+        eltong.textContent = 'Thành tiền : ' + quaTao*soLuong;
+      };
+      tong(50,30);
+    </script>
+  </body>
+</html>

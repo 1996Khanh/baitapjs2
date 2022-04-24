@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TravelWorthy</title>
+    <link rel="stylesheet" href="css/c03.css" />
+  </head>
+  <body>
+    <h1>TravelWorthy</h1>
+    <div id="footer"></div>
+    <script>
+      var msg = '<p><b>page tile: </b>' + document.title +'</br>';
+      msg += '<b>page address: </b>' + document.URL + '</br>';
+      msg += '<b> Last modified: </b>'+document.lastModified + '</p>';
+
+      var el = document.getElementById('footer');
+      el.innerHTML = msg;
+    </script>
+  </body>
+</html>
